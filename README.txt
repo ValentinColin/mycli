@@ -7,3 +7,7 @@ poetry add cleo
 ```
 
 don't forget to change mycli by the name of your application
+
+
+## Structure des commandes
+
