@@ -5,7 +5,7 @@ from mycli.console.commands.command import Command
 
 class AboutCommand(Command):
 
-    name = "About"
+    name = "about"
 
     description = "Shows information about the package mycli"
 

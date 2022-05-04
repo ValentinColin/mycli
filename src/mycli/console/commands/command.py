@@ -1,6 +1,6 @@
 from typing import Any
 
-from cleo.command.command import Command as BaseCommand
+from cleo.commands.command import Command as BaseCommand
 from cleo.exceptions import ValueException
 
 

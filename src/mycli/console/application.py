@@ -2,8 +2,10 @@ from importlib import import_module
 
 from typing import Callable
 
-from .commands.about import AboutCommand
-from cleo import Application
+from mycli.console.commands.about import AboutCommand
+from mycli.console.commands.source import SourceCommand
+from mycli.console.commands.cleo import CleoCommand
+from cleo.application import Application
 
 
 def load_command(name: str) -> Callable:
@@ -18,6 +20,8 @@ def load_command(name: str) -> Callable:
 
 application = Application()
 application.add(AboutCommand())
+application.add(SourceCommand())
+application.add(CleoCommand())
 
 
 def main() -> int:

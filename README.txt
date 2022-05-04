@@ -11,3 +11,15 @@ don't forget to change mycli by the name of your application
 
 ## Structure des commandes
 
+```
+commands/
+    command_1.py
+    command_2.py
+    command_3.py
+    command_3/
+        __init__.py
+        command_3_1.py
+        command_3_2.py
+        command_3_3.py
+    ...
+```
